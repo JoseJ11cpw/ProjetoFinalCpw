@@ -9,7 +9,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> <!--Ligar Bootsrap-->
     <link rel="stylesheet" href="css/styles.css"> <!-- Ligar ao Css-->
-    <link rel="stylesheet" href="css/stylesNav.css">
 </head>
 
 <body>
@@ -53,7 +52,7 @@
     <div class="row">
         <div class="col-md-4">
             <img src="imagens/imgRestaurante.jpg" width="300" height="300">
-            <p class="textoCaixas">Restaurantes</p>
+            <a class="textoCaixas" href="restaurantes.php"><p>Restaurantes</p> </p></a>
         </div>
         <div class="col-md-4">
             <img src="imagens/imgAlojamento.jpg" width="300" height="300">
