@@ -9,7 +9,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> <!--Ligar Bootsrap-->
     <link rel="stylesheet" href="css/styles.css"> <!-- Ligar ao Css-->
-    <?php include 'base de dados/bd.php'; ?>
 </head>
 <body>
 <div class="container">    
@@ -47,11 +46,15 @@
     </div>
     <!--CARROSSEL-->
     <br><br><br>
-    <div class="col-md-6">
-        <h1>Tradições e Cultura da ilha dos Açores</h1>
-        <p>Os Açores são um arquipélago português situado no meio do Atlântico, conhecido pelas suas paisagens deslumbrantes, vulcões majestosos e uma cultura única que reflete séculos de história e tradição. Cada ilha tem o seu próprio encanto, mas existe um fio condutor que une todo o arquipélago: a valorização da natureza, da gastronomia e das tradições comunitárias.
+    <section class="secTexto">
+        <div class="Overlay">
+        <div class="Texto">
+            <h1>Tradições e Cultura da ilha dos Açores</h1>
+            <p>Os Açores são um arquipélago português situado no meio do Atlântico, conhecido pelas suas paisagens deslumbrantes, vulcões majestosos e uma cultura única que reflete séculos de história e tradição. Cada ilha tem o seu próprio encanto, mas existe um fio condutor que une todo o arquipélago: a valorização da natureza, da gastronomia e das tradições comunitárias.
 <br>A cultura açoriana destaca-se pela música, dança e festas tradicionais, que celebram a vida comunitária e as raízes locais. A gastronomia, ligada à terra e ao mar, é rica e autêntica, com pratos e produtos típicos que encantam visitantes e locais. O artesanato e as festividades populares completam esta identidade vibrante, mostrando uma cultura viva, orgulhosa e cheia de história.</p>
-    </div>
+        </div>
+    </section>
+
     <br><br>
 
     <div class="row">
