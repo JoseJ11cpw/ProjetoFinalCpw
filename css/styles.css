@@ -1,6 +1,10 @@
 .carousel-item img{ /*ajustes do carrossel*/
-    height: 650px;
+    height: 800px;
     object-fit: cover;
+}
+
+.row img{ /*3 imagens*/
+    border-radius: 10px; /*arredonda os cantos*/
 }
 
 .col-md-4{ /*texto dentro das caixas*/
@@ -9,25 +13,60 @@
     position: relative;
     overflow: hidden;
 }
-.row img{ /*3 imagens*/
-    border-radius: 10px; /*arredonda os cantos*/
-}
-
 .textoCaixas{
     text-decoration: none;
     color: black;
     font-family: "Helvetica Now Text Medium", Helvetica, Arial, sans-serif;
-    font-size: 35px;
+    font-size: 2vw;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgb(192, 203, 192, 0.6);
     padding: 10px 20px;
-    width: 69%;
-    
+    width: 44%;
 }
 .col-md-6 h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 60px;
+}
+.secTexto{
+    position: relative;
+    height: 600px;
+    background-image: url("../imagens/imgAçores5.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.Overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.95) 30%,
+    rgba(255, 255, 255, 0.6) 50%,
+    rgba(255, 255, 255, 0) 80%
+  );
+}
+
+/* Conteúdo */
+.Texto {
+  position: relative;
+  max-width: 600px;
+  padding: 60px;
+  z-index: 1;
+}
+
+.Texto h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #1f2a44;
+}
+
+.Texto p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 15px;
 }

@@ -1,7 +1,10 @@
+.navbar{
+    margin-bottom: 10px;
+}
 .nav-left {
     display: flex;           /* coloca img e h1 na mesma linha */
     align-items: center;     /*centrar*/
-    gap: 15px;               /* espaço entre imagem e título */
+    gap: 15px;                   /* espaço entre imagem e título */
 }
 
 .nav-left h1 {
