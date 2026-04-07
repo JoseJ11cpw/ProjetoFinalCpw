@@ -6,10 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A ilha dos Açores</title>
     <link rel="icon" href="Imagens/favicon.ico" type="image/ico"> <!--Favicon-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> <!--Ligar Bootsrap-->
-    <link rel="stylesheet" href="css/styles.css"> <!-- Ligar ao Css-->
-    <link rel="stylesheet" href="css/fontes.css"> <!-- Ligar ao Css onde tem as fontes-->
+
+
 </head>
 <body>
 
@@ -60,26 +58,28 @@
     <br><br><br>
 
     <div class="row">
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="imagens/restaurante.png" alt="Card image cap">
-            <div class="card-body">
-                <a class="card-text" href="restaurantes.php"><p>Restaurantes</p> </p></a>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="imagens/alojamentos.png" alt="Card image cap">
-            <div class="card-body">
-                <a class="card-text" href="restaurantes.php"><p>Alojamentos</p> </p></a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="imagens/visitar.png" alt="Card image cap">
-            <div class="card-body">
-                <a class="card-text" href="restaurantes.php"><p>Visitar</p> </p></a>
-            </div>
-        </div>
         
+        <a href="restaurantes.php" class="card" style="width: 18rem;">
+            <img class="card-img-top" src="imagens/icones/restaurante.png" alt="Card image cap">
+            <div class="card-body">
+                <p class="card-text">Restaurantes</p>
+            </div>
+        </a>
+
+        <a href="alojamentos.php" class="card" style="width: 18rem;">
+            <img class="card-img-top" src="imagens/icones/alojamentos.png" alt="Card image cap">
+            <div class="card-body">
+                <p class="card-text">Alojamentos</p>
+            </div>
+        </a>
+
+        <a href="visitar.php" class="card" style="width: 18rem;">
+            <img class="card-img-top" src="imagens/icones/visitar.png" alt="Card image cap">
+            <div class="card-body">
+                <p class="card-text">Visitar</p>
+            </div>
+        </a>
+
     </div>
 
 

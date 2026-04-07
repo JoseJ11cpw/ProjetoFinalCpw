@@ -44,10 +44,13 @@
 }
 
 .card{
-  display: flex;
   justify-content: center; /* horizontal */
   align-items: center;     /* vertical */
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none; /* remove sublinhado */
+  color: black; 
 }
 .card-img-top{
   margin-top: 40px;

@@ -1,4 +1,10 @@
-<link rel="stylesheet" href="css/stylesNav.css">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> <!--Ligar Bootsrap-->
+    <link rel="stylesheet" href="css/styles.css"> <!-- Ligar ao Css-->
+    <link rel="stylesheet" href="css/fontes.css"> <!-- Ligar ao Css onde tem as fontes-->
+    <link rel="stylesheet" href="css/stylesNav.css">
+</head>
+
 <nav class="navbar">
     <div class="nav-left"> <!--Lado Esquerdo-->
         <a href="index.php"><img src="Imagens/favicon.ico" alt="Logo" height="100" width="100"></a>
