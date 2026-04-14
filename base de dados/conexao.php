@@ -9,7 +9,7 @@ try {
     
     // Definir modo de erro
 
-    echo "Conectado com sucesso!";
+    echo "";
 } catch (PDOException $e) {
     echo "Erro na conexão: " . $e->getMessage();
 }
