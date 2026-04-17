@@ -14,7 +14,7 @@
         <?php include 'header.php';?>
     </div>
 </div>
-
+<br><br>
 <div class="row">
     <?php 
     $sql = "SELECT nome, localização, imagem FROM restaurantes";  
@@ -26,12 +26,13 @@
 if ($result->num_rows > 0) {
   // Output data of each row
   while($row = $result->fetch_assoc()) {?>
-  <a href="#" class="card" style="width: 30rem;">
-            <img class="card-img-top" src="imagens/imgRestaurantes/<?php echo $row['imagem'];?>" alt="Card image cap">
-            <div class="card-body">
-                <p class="card-text"><?php echo $row['nome'];?> </p>
-            </div>
-    </a>
+    <div class="card custom-card" style="width: 34rem; height : 15rem; ">
+        <img class="custom-img" src="imagens/imgRestaurantes/<?php echo $row['imagem'];?>" alt="Card image cap">
+    <div class="card-body">
+        <p class="card-text"><?php echo $row['nome'];?></p>
+    </div>
+
+</div>
 <?php
 }
 

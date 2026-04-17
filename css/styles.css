@@ -65,16 +65,24 @@
   font-size: 30px;
 }
 .row{
-  gap:200px;
+  gap:100px 200px;
   justify-content: center;
 }
 
-.cardsRestaurantes{
-  justify-content: center; /* horizontal */
-  align-items: center;     /* vertical */
-  border-radius: 20px;
+.custom-card {
   display: flex;
-  flex-direction: left;
-  text-decoration: none; /* remove sublinhado */
-  color: black;
+  flex-direction: row;
+  align-items: center;
+}
+
+.custom-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.card-body {
+  margin-left: 10px;
+  margin-bottom: 100px;
 }
