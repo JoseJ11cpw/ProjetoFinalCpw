@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,8 +15,6 @@
         <?php include 'header.php'; ?>
     </div>
 </div>
-
-<br><br>
 
 <form method="GET" action="" class="search-form">
 
@@ -63,9 +61,6 @@ if (!empty($pesquisa)) {
     $result = $conn->query($sql);
 }
 
-/* =========================
-   MOSTRAR CARDS
-========================= */
 
 if ($result && $result->num_rows > 0) {
 

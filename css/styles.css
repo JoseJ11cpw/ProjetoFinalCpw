@@ -176,6 +176,12 @@ form button:hover {
     margin: 20px 0;
 }
 
+.custom-card{
+    width:100%;
+    max-width:500px;
+    height:auto;
+}
+
 .search-box {
     position: relative;
     display: inline-block;
@@ -204,4 +210,139 @@ form button:hover {
 
 .clear-btn:hover {
     color: red;
+}
+.container-fluid{
+  background-color: rgba(221, 216, 216, 0.536);
+}
+.custom-card-body{
+    overflow:hidden;
+}
+.nome,.custom-card-body p{
+    word-wrap:break-word;
+    overflow-wrap:break-word;
+}
+
+@media (max-width: 768px){
+
+    .row{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .custom-card{
+        width:85% !important;
+        height:200px !important;
+    }
+    .custom-card-body h1{
+      font-size: 25px;
+    }
+
+    .custom-card-img{
+        width:60%;
+        height:120px;
+        object-fit:cover;
+    }
+
+    .nome{
+        font-size:1.5rem;
+    }
+     .search-box{
+        transform: scale(0.65);
+        transform-origin: center;
+    }
+    .search-form button{
+        font-size:13px;
+        padding:6px 10px;
+        transform: scale(0.9);
+        transform-origin:center;
+        position: relative;
+        right: 55px; /* ajusta aqui */
+
+    }
+    /* CARROSSEL */
+    .carousel-item img{
+        height:250px;
+        object-fit:cover;
+    }
+
+    /* SECÇÃO TEXTO */
+     .secTexto{
+        height:500px;
+        background-position:center;
+    }
+
+    .Overlay{
+        background: linear-gradient(
+            to bottom,
+            rgba(255,255,255,0.85) 20%,
+            rgba(255,255,255,0.65) 60%,
+            rgba(255,255,255,0.35) 100%
+        );
+        display:flex;
+        align-items:center;
+    }
+
+    .Texto{
+        max-width:100%;
+        padding:25px;
+    }
+
+    .Texto h1{
+        font-size:28px;
+        margin-bottom:15px;
+        color:#1f2a44;
+    }
+
+    .Texto p{
+        font-size:14px;
+        line-height:1.5;
+        color:#333;
+    }
+
+    /* CARDS */
+    .row{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:30px;
+    }
+
+    .card{
+        width:80% !important;
+        height:16rem !important;
+    }
+
+    .card-img-top{
+        width:100px;
+        height:100px;
+        margin-top:30px;
+    }
+
+    .card-text{
+        font-size:22px;
+        text-align:center;
+    }
+
+    .card-body{
+        margin-bottom:40px;
+    }
+
+    .divtext{
+      display: table;
+      font-size: 3.2vw;
+    }
+
+}
+.login{
+  width: 20px;
+  height: 20px;
+  color: black;
+}
+.botaologin {
+    padding: 10px 10px;
+    border-radius: 8px;
+    background: #2db2ff75;
+    color: white;
+    text-decoration: none;
 }

@@ -17,7 +17,7 @@
     </div>
 </div>
 
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carouse   l">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="imagens/imgAçores1.jpg" class="d-block w-100" alt="...">
@@ -70,13 +70,6 @@
             <img class="card-img-top" src="imagens/icones/alojamentos.png" alt="Card image cap">
             <div class="card-body">
                 <p class="card-text">Alojamentos</p>
-            </div>
-        </a>
-
-        <a href="visitar.php" class="card" style="width: 18rem; height: 20rem">
-            <img class="card-img-top" src="imagens/icones/visitar.png" alt="Card image cap">
-            <div class="card-body">
-                <p class="card-text">Visitar</p>
             </div>
         </a>
 

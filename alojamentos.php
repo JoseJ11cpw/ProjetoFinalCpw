@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +14,6 @@
         <?php include 'header.php';?>
     </div>
 </div>
-<br><br>
 
 <form method="GET" action="" class="search-form">
 
@@ -59,9 +58,6 @@ if (!empty($pesquisa)) {
     $result = $conn->query($sql);
 }
 
-/* =========================
-   MOSTRAR CARDS
-========================= */
 
 if ($result && $result->num_rows > 0) {
 
@@ -73,7 +69,7 @@ if ($result && $result->num_rows > 0) {
                  src="imagens/imgAlojamentos/<?php echo $row['imagem']; ?>"
                  alt="Card image">
 
-            <div class="custom-card-body">
+            <div class="custom-card-body divtext">
                 <h1 class="nome"><?php echo $row['nome']; ?></h1>
                 <p><?php echo $row['localizacao']; ?></p>
             </div>
